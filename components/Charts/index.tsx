@@ -27,6 +27,7 @@ export default function Chart() {
       <LineChart.Provider data={data}>
         <LineChart>
           <LineChart.Path />
+          <LineChart.CursorCrosshair />
         </LineChart>
       </LineChart.Provider>
     </SafeAreaView>
